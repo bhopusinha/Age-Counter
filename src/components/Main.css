@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    width: 40vw;
+    height: 200px;
+    background: #00abff69;
+    text-align: center;
+    color: #fff;
+    border-radius: 9px;
+    box-shadow: 0px 0px 11px black;
+    background: linear-gradient(60deg, rgb(39 28 86) 0%, rgb(0 85 96) 100%);
+}
+
+.content {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inp input {
+    padding: 20px 5px;
+    outline: none;
+    border-radius: 18px;
+    background: linear-gradient(60deg,
+            rgba(84, 58, 183, 1) 0%,
+            rgba(0, 172, 193, 1) 100%);
+    color: #fff;
+    border: none;
+    margin-right: 15px;
+    background-color: transparent;
+}
+
+.btn input {
+    padding: 8px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(0, 255, 225));
+    font-size: .8rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+p {
+    padding: 12px;
+}
+
+h1 {
+    padding-top: 12px;
+}
+
+
+@media (max-width:750px) {
+    .container {
+        /* width: 430px; */
+        width: 50vw;
+        height: 236px;
+    }
+}
+
+@media (max-width:500px) {
+    .container {
+        /* width: 331px; */
+        width: 87vw;
+        font-size: 16px;
+        height: 236px;
+    }
+
+    .inp input{
+        padding: 15px 5px;
+    }
+
+    .content {
+        gap: 25px;
+    }
+}
