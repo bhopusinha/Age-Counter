@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mi-store/static/css/main.55672fa8.css",
+    "main.js": "/mi-store/static/js/main.de719982.js",
+    "index.html": "/mi-store/index.html",
+    "main.55672fa8.css.map": "/mi-store/static/css/main.55672fa8.css.map",
+    "main.de719982.js.map": "/mi-store/static/js/main.de719982.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55672fa8.css",
+    "static/js/main.de719982.js"
+  ]
+}
